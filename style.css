@@ -228,10 +228,62 @@ footer{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding-inline: 1rem;
+        padding-inline: 0.5rem;
         color: var(--branco);
         background-color: var(--preto);
         height: 25vw;
+    }
+
+    .headerEsquerdo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    .titulo h1{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    
+    .headerEsquerdo a{
+        font-size: 10px;
+        color: var(--branco);
+        transition: 0.15s linear;
+    }
+    
+    .headerEsquerdo a:hover{
+        
+        border-bottom: 1px solid white;
+        padding-bottom: 0.1rem;
+    }
+    
+    .headerEsquerdo img{
+        width: 20px;
+    }
+    
+    .headerDireito{
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    .submit{
+        color: var(--branco);
+        background-color: transparent;
+        border: 0.1rem solid var(--branco);
+        width: 6rem;
+        height: 2rem;
+        border-radius: 0.4rem;
+    }
+    
+    .sign{
+        color: var(--branco);
+        background-color: var(--descricao);
+        border: 0.1rem solid transparent;
+        width: 3rem;
+        height: 2rem;
+        border-radius: 0.4rem;
     }
 
     .containerPesquisa{
@@ -252,12 +304,12 @@ footer{
     
     form{
         border: 0.1rem solid var(--preto);
-        width: 26rem;
+        width: 22rem;
     }
     form input{
         border: none;
         height: 2.5rem;
-        width: 23.9rem;
+        width: 19.9rem;
         padding-left: 1rem;
         outline: none;
     }
@@ -312,7 +364,7 @@ footer{
     }
     
     .list3 img{
-        width: 20px;
+        width: 18px;
         margin-bottom: 0.5rem;
     }
     
@@ -323,6 +375,6 @@ footer{
         gap: 0.2rem;
     }
     .list3 p{
-        font-size: 11px;
+        font-size: 9px;
     }
 }
