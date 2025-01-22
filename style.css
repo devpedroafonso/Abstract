@@ -222,7 +222,7 @@ footer{
     gap: 0.2rem;
 }
 
-@media (max-width: 465px) {
+@media (max-width: 390px) {
     header{
         display: flex;
         flex-direction: row;
@@ -231,7 +231,7 @@ footer{
         padding-inline: 1rem;
         color: var(--branco);
         background-color: var(--preto);
-        height: 15vw;
+        height: 25vw;
     }
 
     .containerPesquisa{
@@ -252,12 +252,12 @@ footer{
     
     form{
         border: 0.1rem solid var(--preto);
-        width: 27rem;
+        width: 26rem;
     }
     form input{
         border: none;
         height: 2.5rem;
-        width: 25rem;
+        width: 23.9rem;
         padding-left: 1rem;
         outline: none;
     }
